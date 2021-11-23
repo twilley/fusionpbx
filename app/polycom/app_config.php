@@ -551,6 +551,14 @@
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the time to stop polling when using random mode";
 		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "d243151a-8120-464d-bdf5-91d9dc57bfc4";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "provision";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "polycom_boot_status_popup_enabled";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "numeric";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Disable boot status popup by default";
+		$y++;
 		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "fb4fe110-bb83-4b64-a39b-c879ebcc8af7";
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "provision";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "polycom_provision_app_file_path_4x";
